@@ -1,5 +1,5 @@
-# Contenu complet de app_dashboard_complet.py déjà corrigé et prêt
-app_dashboard_code = """
+# Recréer le contenu propre de app.py (équivalent à app_dashboard_complet.py corrigé)
+app_py_content = """
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -87,9 +87,9 @@ with tab3:
     st.plotly_chart(fig, use_container_width=True)
 """
 
-# Sauvegarder dans un fichier .py
-app_dashboard_path = "/mnt/data/app_dashboard_complet.py"
-with open(app_dashboard_path, "w") as f:
-    f.write(app_dashboard_code)
+# Enregistrer sous app.py
+app_fixed_path = "/mnt/data/app.py"
+with open(app_fixed_path, "w") as f:
+    f.write(app_py_content)
 
-app_dashboard_path
+app_fixed_path
